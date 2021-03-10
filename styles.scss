@@ -1,0 +1,134 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+.container {
+     display: flex;
+     justify-content: center;
+}
+
+.header {
+     height: 100px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+     border: 1px solid #ececec;
+     background-color: #ffffff;
+}
+
+.header-container {
+     margin: 0 auto;
+     width: 1440px;
+
+}
+
+.header-right {
+     display: flex;
+     align-items: center;
+}
+
+.header-left {
+     display: flex;
+     align-items: center;
+}
+
+.header-flex {
+     display: flex;
+     justify-content: space-between;
+}
+
+.logo__header {
+     color: #222222;
+     font-family: Lato;
+     font-weight: 300;
+}
+
+.my-acc {
+     display: block;
+     background-color: #f16d7f;
+     padding: 13px 20px;
+}
+
+.menu {
+     display: flex;
+     list-style-type: none;
+     justify-content: center;
+}
+
+.menu-link {
+     text-decoration: none;
+     display: block;
+     padding: 20px 25px;
+     color: #222222;
+     font-size: 14px;
+     font-weight: 700;
+     text-transform: uppercase;
+}
+
+.menu-list {
+     position: relative;
+}
+
+.menu-list:hover .mega-box {
+     display: flex;
+}
+
+.add-img {
+     margin-right: 7px;
+}
+
+.mega-box {
+     border: 1px solid #e8e8e8;
+     border-radius: 5px;
+     padding: 20px;
+     position: absolute;
+     display: none;
+}
+
+.mega-box::before {
+     content: "";
+     display: block;
+     width: 16px;
+     height: 16px;
+     background-color: white;
+     position: absolute;
+     top: -9px;
+     left: 33px;
+     transform: rotate(45deg);
+     border-left: 1px solid #e8e8e8;
+     border-top: 1px solid #e8e8e8;
+
+}
+
+.mega-flex {
+     margin-right: 45px;
+}
+
+.mega-flex:last-of-type {
+     margin-right: 0;
+}
+
+.mega-head {
+     color: #232323;
+     font-weight: 400;
+     font-size: 14px;
+     text-transform: uppercase;
+     width: 235px;
+     border-bottom: 1px solid #e8e8e8;
+     padding-bottom: 8px;
+     margin-bottom: 8px;
+}
+
+.mega-menu-list {
+     list-style-type: none;
+}
+
+.mega-menu-link {
+     display: block;
+     text-decoration: none;
+     color: #646464;
+     line-height: 28px;
+}
+
+.mega-menu-link:hover {
+     color: #f16d7f;
+}
